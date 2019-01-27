@@ -24,7 +24,7 @@ var name = document.getElementById("name");
 
 // JS for the gallery
 
-let thumbs = document.getElementsByTagName("img");
+let thumbs = document.getElementsByClassName("tile");
 let preview = document.getElementById("prev");
 
 let url = "https://dl.dropboxusercontent.com/s/gahvse1ocjbdya8/_DSC1225.jpg";
@@ -34,7 +34,7 @@ preview.style.backgroundImage = `url(${url})`;
 
 for (let i = 0; i < thumbs.length; i++) {
   thumbs[i].addEventListener("click", function() {
-    let url = thumbs[i + 3].src;
+    let url = thumbs[i].src;
     preview.style.backgroundImage = `url(${url})`;
   });
 }
