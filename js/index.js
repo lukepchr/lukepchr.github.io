@@ -23,8 +23,7 @@ var email = document.getElementById("email");
 var name = document.getElementById("name");
 
 // JS for the gallery
-
-let thumbs = document.getElementsByClassName("tile");
+let thumbs = document.getElementsByClassName("mainflex")[0].getElementsByClassName("gallery")[0].getElementsByTagName("img");
 let preview = document.getElementById("prev");
 
 let url = "https://dl.dropboxusercontent.com/s/gahvse1ocjbdya8/_DSC1225.jpg";
