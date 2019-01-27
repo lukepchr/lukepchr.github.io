@@ -1,0 +1,457 @@
+* {
+  font-family: Helvetica;
+  box-sizing: border-box;
+}
+
+a.anchor { /* for IDs */
+  display: block;
+  position: relative;
+  top: -100px;
+  visibility: hidden;
+}
+
+.all_projects {
+  margin: 20px 0 40px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+}
+
+#avatar {
+  margin-right: 20px;
+  height: 100%;
+  border-radius: 0 0 25px 0;
+  filter: sepia(40%);
+}
+#avatarbox {
+  left: 0;
+  height: 20vh;
+}
+
+button {
+  color: #fff7ef;
+  vertical-align: middle;
+  min-width: 120px;
+  padding: 10px;
+  font-size: 0.9em;
+  font-weight: 200;
+  background-color: #3f372f;
+  border-color: #594d42;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15);
+}
+
+button:hover {background-color: #8c7056;}
+
+body {background-color: #f9f9f9;}
+
+.brightnessabout {
+  display: flex;
+  width: 60%;
+  min-width: 60%
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.45);
+  border-radius: 0 0 25px 0;
+  padding: 0 30px 6px 0;
+  margin: 0 auto 30px 0;
+}
+
+.formbox {
+  width: 18vw;
+  min-width: 300px;
+  padding: 15px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formflex {
+  display: flex;
+  align-content: flex-start;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+footer {
+  color: #fff7ef;
+  width: 100%;
+  padding: 5px 0;
+  background-color: rgba(63, 55, 46, 0.8);
+  text-align: center;
+  margin: 0;
+  margin-top: -2px;
+  font-size: 0.9em;
+  font-weight: 100;
+}
+
+h1 {
+  text-align: center;
+  position: relative;
+  margin: 40vh auto;
+  padding: 10px;
+  width: 40vw;
+  font-size: 3em;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+
+.img {
+  height: 9.5vw;
+  border-radius: 3px;
+  float: right;
+  margin: 0 20px 90px 0;
+}
+
+.imgcaption {
+  line-height: 1.6;
+  text-align: justify;
+  width: 100%;
+  margin-right: 20px;
+}
+
+input {
+  border: none;
+  height: 25px;
+  font-size: 0.9em;
+
+  margin: 5px 0;
+  outline: none;
+  border-radius: 4px;
+  padding: 0 5px;
+  background-color: rgba(255, 247, 239, 0.75);
+}
+
+#intro{
+  text-indent: 3em;
+  padding: 5px 30px;
+  line-height: 1.7;
+  width: 85%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+li {
+  font-size: 0.95em;
+  font-weight: 300;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-start;
+  line-height: 1.5;
+  width: 85%;
+  background-color: #f4f4f4;
+  border-radius: 3px;
+  padding: 0 30px;
+  border: solid 1px #eae7d7;
+  box-shadow: 2px 2px #e2e2e2;
+}
+
+.linksflex {
+  display: flex;
+}
+
+.linksbox {
+  width: 85%;
+  margin: 15px auto;
+  border-radius: 5px;
+  box-shadow: 2px 2px #e2e2e2;
+  background-color: #f4f4f4;
+  border: solid 1px #eae7d7;
+}
+
+
+.main {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.menu {
+  margin: 0 15px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 12px 0;
+  background-color: rgba(63, 55, 46, 0.93);
+}
+
+
+
+
+p {
+  font-size: 0.95em;
+  font-weight: 300;
+}
+
+.pulldown {
+  position: absolute;
+  bottom: 8px;
+  left: 5%;
+}
+
+.projimg {
+  width: 100%;
+  border: solid 1px #eae7d7;
+}
+
+.project {
+  position: relative;
+  width: 20vw;
+  min-width: 200px;
+  text-align: justify;
+  border-radius: 5px;
+  box-shadow: 2px 2px #e2e2e2;
+  background-color: #f4f4f4;
+  padding: 15px 15px 50px 15px;
+  border: solid 1px #eae7d7;
+  margin: 0 1vw;
+}
+
+.second_banner {
+  overflow: auto;
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 0 auto auto;
+  height: auto;
+  margin-bottom: 50px;
+  /*
+    background: skyblue;
+  background-image: url();
+  background-size: cover; 
+  background-position: bottom;*/
+}
+
+
+
+.sheepbox {height: 100%;}
+
+.sheep {
+  height: 230px;
+  margin: 0 30px 25px 45px;
+  float: right;
+}
+
+.textbox {margin: 0 20px;}
+
+.title {
+  position: absolute;
+  top: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+textarea {
+  resize: none;
+  margin: 5px 0;
+  border: none;
+  outline: none;
+  font-size: 0.9em;
+  border-radius: 3px;
+  padding: 5px;
+  background-color: rgba(255, 247, 239, 0.75);
+}
+
+ul ul {
+  list-style-position: inside;
+}
+
+.welcome {
+  position: relative;
+  height: 80vh;
+  width: 100%;
+}
+
+.whiteback{
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+
+/* GALLERY CSS BELOW */
+.desc {margin: 0px 40px;}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 30%;
+}
+
+.gallerybox {
+  border-radius: 5px;
+  box-shadow: 2px 2px #e2e2e2;
+  background-color: #f4f4f4;
+  margin-bottom: 20px;
+  border: solid 1px #eae7d7;
+  width: 85%;
+  margin: 20px auto;
+}
+
+.horizontal {
+  flex: 1 0 120px;
+  padding: 1px;
+}
+
+.mainflex .gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(90%);
+}
+
+.mainflex .gallery img:hover {filter: brightness(120%);}
+
+.preview {
+  width: 50vw;
+  margin: 15px auto;
+  background-image: url("https://dl.dropboxusercontent.com/s/p2tiun8m7z60vci/tegejzery.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mainflex {
+  position: relative;
+  width: 100%;
+  margin: 15px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.vertical {
+  flex: 1 1 40px;
+  padding: 1px;
+}
+
+/* A few media queries... */
+
+@media only screen and (max-width: 1200px){
+  h2{
+    font-size: 1em;
+  }
+  p{
+    font-size: 0.8em;
+    text-align: left;
+  }
+  li{
+    font-size: 0.8em;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 970px){
+  .mainflex{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+
+  width: 100%;
+  height: 70vh;
+}
+  
+  .preview{
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    top: 0;
+   background-size: cover;
+    height: 100%;
+    
+  }
+  .gallery{
+    position: absolute;
+    width: auto;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .vertical {
+  flex: 2 1 15px;
+  padding: 1px;
+}
+    .horizontal {
+  flex: 3 1 20px;
+  padding: 1px;
+}
+}
+
+@media only screen and (max-width: 900px){
+  .brightnessabout{width: 90%;}
+  .sheep{
+    margin: 0 0px 10px 20px;
+    height: 15vw;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  .menu{
+    margin: 5px;
+    min-width: 50px;
+  }
+  .sheep{ display: none;} /* bye now */
+}
+
+@media only screen and (max-width: 800px){
+  .all_projects{
+    position: relative;
+    flex-direction: column;
+  } 
+  .project{
+    width: 70%;
+    margin: 15px auto;
+  }
+
+  
+}
+
+/* media query mostly for Artur, don't ask. */
+@media only screen and (max-width: 700px){
+
+  button{font-size: 0.7em;}
+  
+  .menu{margin: 3px;}
+
+  .brightnessabout{
+    margin: 0;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    border-radius: 0;
+  }
+  
+  #avatarbox{width: 100%;}
+  
+  .preview{
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    top: 0;
+   background-size: contain;
+    height: 50vh;
+    width: 100%;
+  }
+  
+  .formbox{margin: 3px auto;}
+  
+  .mainflex{margin: 0;}
+}
