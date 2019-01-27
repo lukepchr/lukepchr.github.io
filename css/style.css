@@ -37,8 +37,8 @@ button {
   font-size: 0.9em;
   font-weight: 200;
   background-color: #3f372f;
-  border-color: #594d42;
-  border-radius: 1px;
+  border: 1px solid #594d42;
+  border-radius: 5px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15);
 }
 
