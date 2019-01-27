@@ -26,7 +26,7 @@ var name = document.getElementById("name");
 let thumbs = document.getElementsByClassName("mainflex")[0].getElementsByClassName("gallery")[0].getElementsByTagName("img");
 let preview = document.getElementById("prev");
 
-let url = "https://dl.dropboxusercontent.com/s/gahvse1ocjbdya8/_DSC1225.jpg";
+let url = "https://raw.githubusercontent.com/lukepchr/lukepchr.github.io/master/images/gallery/_1225.jpg";
 preview.style.backgroundImage = `url(${url})`;
 
 // add a "click" event listener to each thumbnail
