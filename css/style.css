@@ -199,6 +199,7 @@ nav {
 p {
   font-size: 0.90em;
   font-weight: 300;
+  line-height: 1.2;
 }
 
 .pulldown {
@@ -235,7 +236,7 @@ p {
   /*
     background: skyblue;
   background-image: url();
-  background-size: cover; 
+  background-size: cover;
   background-position: bottom;*/
 }
 
@@ -368,7 +369,7 @@ ul ul {
   width: 100%;
   height: 70vh;
 }
-  
+
   .preview{
     position: relative;
     margin: 0 auto;
@@ -376,7 +377,7 @@ ul ul {
     top: 0;
    background-size: cover;
     height: 100%;
-    
+
   }
   .gallery{
     position: absolute;
@@ -415,20 +416,20 @@ ul ul {
   .all_projects{
     position: relative;
     flex-direction: column;
-  } 
+  }
   .project{
     width: 70%;
     margin: 15px auto;
   }
 
-  
+
 }
 
 /* media query mostly for Artur, don't ask. */
 @media only screen and (max-width: 700px){
 
   button{font-size: 0.7em;}
-  
+
   .menu{margin: 3px;}
 
   .brightnessabout{
@@ -438,9 +439,9 @@ ul ul {
     padding: 0;
     border-radius: 0;
   }
-  
+
   #avatarbox{width: 100%;}
-  
+
   .preview{
     position: relative;
     margin: 0 auto;
@@ -450,8 +451,8 @@ ul ul {
     height: 50vh;
     width: 100%;
   }
-  
+
   .formbox{margin: 3px auto;}
-  
+
   .mainflex{margin: 0;}
 }
