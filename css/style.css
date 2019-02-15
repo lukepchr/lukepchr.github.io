@@ -412,13 +412,13 @@ ul ul {
   .sheep{ display: none;} /* bye now */
 }
 
-@media only screen and (max-width: 888px){
+@media only screen and (max-width: 880px){
   .all_projects{
     position: relative;
     flex-direction: column;
   }
   .project{
-    width: 70%;
+    width: 65%;
     margin: 15px auto;
   }
 
