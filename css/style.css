@@ -404,7 +404,7 @@ ul ul {
   }
 }
 
-@media only screen and (max-width: 870px){
+@media only screen and (max-width: 900px){
   .menu{
     margin: 5px;
     min-width: 50px;
@@ -412,7 +412,7 @@ ul ul {
   .sheep{ display: none;} /* bye now */
 }
 
-@media only screen and (max-width: 860px){
+@media only screen and (max-width: 888px){
   .all_projects{
     position: relative;
     flex-direction: column;
