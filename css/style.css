@@ -396,7 +396,7 @@ ul ul {
 }
 }
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 950px){
   .brightnessabout{width: 90%;}
   .sheep{
     margin: 0 0px 10px 20px;
@@ -404,7 +404,7 @@ ul ul {
   }
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 870px){
   .menu{
     margin: 5px;
     min-width: 50px;
@@ -412,7 +412,7 @@ ul ul {
   .sheep{ display: none;} /* bye now */
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 860px){
   .all_projects{
     position: relative;
     flex-direction: column;
