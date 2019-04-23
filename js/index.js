@@ -37,23 +37,3 @@ for (let i = 0; i < thumbs.length; i++) {
     preview.style.backgroundImage = `url(${url})`;
   });
 }
-
-// alert for the input form (which I didn't get to work yet).
-
-let err = () =>
-  alert(
-    "Thanks for the interest but I'll need to add some PHP here first. You can still email me at lukepchr@gmail.com"
-  );
-
-document.getElementById("name").addEventListener("click", function() {
-  err();
-});
-document.getElementById("email").addEventListener("click", function() {
-  err();
-});
-document.getElementById("message").addEventListener("click", function() {
-  err();
-});
-document.getElementById("submit").addEventListener("click", function() {
-  err();
-});
